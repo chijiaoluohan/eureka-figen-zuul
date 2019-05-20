@@ -17,3 +17,12 @@ eureka-zuul是路由，将请求转发到consmer，consmer通过feigen调用prov
 #2019/05/20
 
 新增断路器hystrix
+
+zuul新增MyFilter。
+
+application.yml中新增
+
+zuul.routes.figen.path=/hystrix/**
+zuul.routes.figen.service-id=service-hystrix
+
+请求 http://localhost:9304/hystrix/hystrixHello/11?token=12
