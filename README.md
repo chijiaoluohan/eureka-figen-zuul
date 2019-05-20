@@ -23,6 +23,7 @@ zuul新增MyFilter。
 application.yml中新增
 
 zuul.routes.figen.path=/hystrix/**
+
 zuul.routes.figen.service-id=service-hystrix
 
 请求 http://localhost:9304/hystrix/hystrixHello/11?token=12
