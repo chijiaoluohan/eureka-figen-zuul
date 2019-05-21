@@ -1,20 +1,26 @@
 # eureka-figen-zuul
 
-springcloud入门学习，eureka+figen+zuul
+springcloud入门学习
 
-其中eureka是注册中心。
+1.注册中心
 
-eureka-service-provider是服务提供者。
+2.服务注册和发现
 
-eureka-service-consmer是服务消费者。
+3.服务提供者和消费者
 
-eureka-zuul是路由，将请求转发到consmer，consmer通过feigen调用provider提供的接口。
+4.断路器
 
-# 2019/05/17
+5.路由网关
+
+6.配置中心，高可用配置中心
+
+7.
+
+## 2019/05/17
 
 新增ribbon
 
-# 2019/05/20
+## 2019/05/20
 
 新增断路器hystrix
 
@@ -28,7 +34,7 @@ zuul.routes.figen.service-id=service-hystrix
 
 请求 http://localhost:9304/hystrix/hystrixHello/11?token=12
 
-# 2019/05/21
+## 2019/05/21
 
 配置中心相关：eureka-config-server,eureka-config-client
 
