@@ -10,11 +10,11 @@ eureka-service-consmer是服务消费者。
 
 eureka-zuul是路由，将请求转发到consmer，consmer通过feigen调用provider提供的接口。
 
-#2019/05/17
+# 2019/05/17
 
 新增ribbon
 
-#2019/05/20
+# 2019/05/20
 
 新增断路器hystrix
 
@@ -28,7 +28,7 @@ zuul.routes.figen.service-id=service-hystrix
 
 请求 http://localhost:9304/hystrix/hystrixHello/11?token=12
 
-#2019/05/21
+# 2019/05/21
 
 配置中心相关：eureka-config-server,eureka-config-client
 
