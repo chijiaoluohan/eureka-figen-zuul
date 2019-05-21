@@ -1,6 +1,4 @@
-# eureka-figen-zuul
-
-springcloud入门学习
+#springcloud入门学习
 
 1.注册中心
 
@@ -13,8 +11,6 @@ springcloud入门学习
 5.路由网关
 
 6.配置中心，高可用配置中心
-
-7.
 
 ## 2019/05/17
 
